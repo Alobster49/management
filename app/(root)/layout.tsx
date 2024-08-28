@@ -1,3 +1,6 @@
+import Bar from "@/components/Bar";
+import Navbar from "@/components/Navbar";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -5,8 +8,10 @@ export default function RootLayout({
 }>) {
   return (
     <main>
-        ABOVEBAR
+      <Navbar/>
+      <Bar/>
         {children}
+        
     </main>
   );
 }

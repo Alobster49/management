@@ -141,3 +141,37 @@ export const transactionCategoryStyles = {
     chipBackgroundColor: "bg-inherit",
   },
 };
+
+export const NavLinks = [
+  { href: '/', key: 'Inspiration', text: 'Inspiration' },
+  { href: '/', key: 'Find Projects', text: 'Find Projects' },
+  { href: '/', key: 'Learn Development', text: 'Learn Development' },
+  { href: '/', key: 'Career Advancement', text: 'Career Advancement' },
+  { href: '/', key: 'Hire Developers', text: 'Hire Developers' },
+  { href: '/', key: 'Explore Tech', text: 'Explore Tech' },
+  { href: '/', key: 'Portfolio Ideas', text: 'Portfolio Ideas' },
+  { href: '/', key: 'Coding Tutorials', text: 'Coding Tutorials' },
+  { href: '/', key: 'Professional Growth', text: 'Professional Growth' },
+  { href: '/', key: 'Tech Recruitment', text: 'Tech Recruitment' },
+  { href: '/', key: 'Innovate Designs', text: 'Innovate Designs' },
+  { href: '/', key: 'Project Showcases', text: 'Project Showcases' },
+  { href: '/', key: 'Dev Workshops', text: 'Dev Workshops' },
+  { href: '/', key: 'Advance Your Career', text: 'Advance Your Career' },
+  { href: '/', key: 'Find Dev Teams', text: 'Find Dev Teams' }
+];
+
+export const categoryFilters = [
+  "Frontend",
+  "Backend",
+  "Full-Stack",
+  "Mobile",
+  "UI/UX",
+  "Game Dev",
+  "DevOps",
+  "Data Science",
+  "Machine Learning",
+  "Cybersecurity",
+  "Blockchain",
+  "E-commerce",
+  "Chatbots"
+]
